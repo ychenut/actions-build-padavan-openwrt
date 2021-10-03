@@ -24,6 +24,7 @@ env:
   CLONE_URL: https://github.com/coolsnowwolf/lede # 地址
   CLONE_BRANCH: master # 分支
   WORK_PATH: opt/openwrt # 工作目录
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true # 新的GitHub要求设置成允许 YC改
 
 jobs:
   build:
